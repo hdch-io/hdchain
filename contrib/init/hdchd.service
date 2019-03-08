@@ -1,0 +1,22 @@
+[Unit]
+Description=HDCH's distributed currency daemon
+After=network.target
+
+[Service]
+User=hdchcore
+Group=hdchcore
+
+Type=forking
+PIDFile=/var/lib/hdchd/hdchd.pid
+ExecStart=/usr/bin/hdchd -daemon -pid=/var/lib/hdchd/hdchd.pid \
+-conf=/etc/hdchcore/hdch.conf -datadir=/var/lib/hdchd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

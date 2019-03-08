@@ -1,0 +1,6 @@
+usr/local/bin/hdch-qt usr/bin
+share/pixmaps/hdch32.xpm usr/share/pixmaps
+share/pixmaps/hdch16.xpm usr/share/pixmaps
+share/pixmaps/hdch128.png usr/share/pixmaps
+debian/hdch-qt.desktop usr/share/applications
+debian/hdch-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=HDCH
+Comment=HDCH P2P Cryptocurrency
+Comment[fr]=HDCH, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=HDCH, eşten eşe kriptografik sanal para birimi
+Exec=hdch-qt %u
+Terminal=false
+Type=Application
+Icon=hdch128
+MimeType=x-scheme-handler/hdch;
+Categories=Office;Finance;

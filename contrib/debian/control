@@ -1,0 +1,68 @@
+Source: hdch
+Section: utils
+Priority: optional
+Maintainer: Holger Schinzel <holger@hdch.org>
+Uploaders: Holger Schinzel <holger@hdch.org>
+Build-Depends: debhelper,
+ devscripts,
+ automake,
+ libtool,
+ bash-completion,
+ libdb4.8++-dev,
+ libssl-dev,
+ pkg-config,
+ libevent-dev,
+ libboost-system1.48-dev | libboost-system-dev (>> 1.35),
+ libboost-filesystem1.48-dev | libboost-filesystem-dev (>> 1.35),
+ libboost-program-options1.48-dev | libboost-program-options-dev (>> 1.35),
+ libboost-thread1.48-dev | libboost-thread-dev (>> 1.35),
+ libboost-test1.48-dev | libboost-test-dev (>> 1.35),
+ libboost-chrono1.48-dev | libboost-chrono-dev (>> 1.35),
+ qt4-qmake,
+ libqt4-dev,
+ libqrencode-dev,
+ libprotobuf-dev, protobuf-compiler,
+ python
+Standards-Version: 3.9.2
+Homepage: http://www.hdch.io/
+Vcs-Git: git://github.com/hdch-io/hdchain.git
+Vcs-Browser: https://github.com/hdch-io/hdchain
+
+Package: hdchd
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - daemon
+ HDCH is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. HDCH uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. HDCH Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides the daemon, hdchd, and the CLI tool
+ hdch-cli to interact with the daemon.
+
+Package: hdch-qt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - Qt GUI
+ HDCH is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. HDCH uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. HDCH Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides HDCH-Qt, a GUI for HDCH based on Qt.
+
+Package: hdch-tx
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer digital currency - standalone transaction tool
+ HDCH is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. HDCH uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. HDCH Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides hdch-tx, a command-line transaction creation
+ tool which can be used without a hdch daemon.  Some means of
+ exchanging minimal transaction data with peers is still required.
