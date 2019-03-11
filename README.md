@@ -1,6 +1,6 @@
 HDCH is a P2P value delivery public chain. By offering its blockchain infrastructure and digital resource distribution protocols, it enables third-party developers to explore their own applications over open-source agreements to form a complete ecology of blockchain technology and applications. With the health data blockchain ecosystem, healthcare service providers can analyze human health data, and provide intelligent healthcare applications. With HDCH smart contract, doctors can add medical records, scan test results, and record drug consumption on the blockchain. Patients can obtain healthcare services through awarding doctors tokens. They can give the insurance company limited access of their data to verify the treatments and audit the claim settlements. Patients can obtain tokens by actively following treatments and make progress with their health conditions. Patients can also be rewarded by giving research institutions and pharmaceutical companies time-limited access to health data for medical experiments.
 
-HDCHChain Documentation and Usage Resources
+HDCH Documentation and Usage Resources
 ---------------
 Resources may be helpful to know about HDCH.
 
@@ -13,13 +13,13 @@ General Info about HDCH:
 
 * [Community](http://www.hdch.one/)
 
-What is HDCHChain?
+What is HDCH?
 ------------------
 
-HDCHChain is a infrastructure chain layer and adopts the mixed consensus mechanism of POW and POS.It supports the intermediate layer and top application layer of the HDCH.
-HDCHChain is the infrastructure of the whole ecosystem.
+HDCH is a infrastructure chain layer and adopts the mixed consensus mechanism of POW and POS.It supports the intermediate layer and top application layer of the HDCH.
+HDCH is the infrastructure of the whole ecosystem.
 
-Building HDCHChain
+Building HDCH
 -------------------
 
 ### Build on Ubuntu(16.04 LTS)
